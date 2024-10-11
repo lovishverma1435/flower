@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet"
+    href="https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body {
+          font-family: "Gilroy";
+        }
+
+        a {
+          text-decoration: none;
+          font-family: "Gilroy";
+          text-wrap: nowrap;
+        }
+
+        button {
+          font-family: "Gilroy";
+        }
+
+        .header_links {
+          @apply text-base my-8  cursor-pointer font-medium;
+        }
+      }
+    </style>
+</head>
+
+<body>
+  <div class="border-b border-[#121212]">
+    <header class="border-b-[1px] border-[#121212]">
+      <div class="grid grid-cols-2">
+        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-2">
+
+          <a href="" class="header_links hidden lg:block mx-[70.5px]">Shop</a>
+          <a href="" class="lg:hidden m-[12px] md:m-[16px]"><img src="./assets/svg/Menu.svg" alt=""></a>
+          <a href="" class="header_links hidden lg:block mx-[59px]">Contact</a>
+        </div>
+          <div></div>
+        </div>
+        <div class="grid grid-cols-2">
+          <div></div>
+          <div class="grid lg:grid-cols-2 justify-items-end ">
+
+            <a href="" class="header_links hidden lg:block mx-[65.5px]">Sign in</a>
+            <a href="" class="header_links hidden lg:block mx-[73px]">Cart</a>
+            <a href="" class="lg:hidden m-[12px] md:m-[16px]"><img
+              src="./assets/svg/shopping_bag_FILL0_wght300_GRAD0_opsz24.svg" alt=""></a>
+            </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="grid grid-cols-1 md:grid-cols-2 w-full relative">
+        <div  class="w-full h-fit md:sticky  md:top-0 border border-black border-t-0 border-l-0 relative">
+          <img class="w-full md:h-auto sm:h-[500px] h-[420px]" src="assets/images/left-banner.jpg" alt="">
+          <h4 class="absolute font-semibold text-[67px] leading-[80.4px] top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 whitespace-nowrap text-white">Fresh Flowers</h4>
+        </div>
+        <div class="grid grid-cols-2 ">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 max-h-[373.6px]"
+            src="assets/images/card item.jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 border-r-0 max-h-[373.6px] "
+            src="assets/images/card item (1).jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 max-h-[373.6px]"
+            src="assets/images/card item (2).jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 border-r-0 max-h-[373.6px]"
+            src="assets/images/card item (3).jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 max-h-[373.6px]"
+            src="assets/images/card-item 5.jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 border-r-0 max-h-[373.6px]"
+            src="assets/images/card-item 6.jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 max-h-[373.6px]"
+            src="assets/images/card-item 7.jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 border-r-0 max-h-[373.6px]"
+            src="assets/images/card-item 8.jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 border-b-0 max-h-[373.6px]"
+            src="assets/images/card-item 9.jpg" alt="">
+          <img class="w-full imgs border border-black border-t-0 border-l-0 border-r-0 border-b-0 max-h-[373.6px]"
+            src="assets/images/card-item 10.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="h-screen"></div>
+  </div>
+</body>
+
+</html>
